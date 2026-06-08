@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Báo nói hàng ngày</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📰 Báo nói hôm nay</h1>
+            <div id="update-time" class="update-time"></div>
+        </header>
+
+        <div class="audio-player">
+            <h3>🎧 Nghe bản tin</h3>
+            <audio id="audio" controls></audio>
+        </div>
+
+        <div class="news-list" id="news-list">
+            <div class="loading">Đang tải tin tức...</div>
+        </div>
+
+        <footer>
+            <button id="feedback-btn" class="feedback-btn">💬 Góp ý qua Telegram</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
